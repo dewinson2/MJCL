@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Briefcase, MapPin, ChevronRight, Check, Construction, Shield, Headphones, Phone, Mail } from "lucide-react"
+import Image from "next/image"
+import { MapPin, ChevronRight, Check, Construction, Shield, Headphones, Phone, Mail } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -112,7 +113,7 @@ export default async function EmpleosPage() {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 font-bold text-empresa-primary">
-            <Briefcase className="h-6 w-6 text-empresa-accent animate-pulse-light" />
+            <Image src="/logo-mjcl.png" alt="MJCL Servicios Logo" width={40} height={40} className="h-10 w-auto" />
             <span>Corporación MJCL</span>
           </Link>
           <nav className="hidden md:flex gap-6">
@@ -526,7 +527,7 @@ export default async function EmpleosPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <Link href="/" className="flex items-center space-x-2 font-bold text-white">
-                <Briefcase className="h-6 w-6 text-empresa-accent" />
+                <Image src="/logo-mjcl.png" alt="MJCL Servicios Logo" width={32} height={32} className="h-8 w-auto" />
                 <span>Corporación MJCL</span>
               </Link>
               <p className="text-white/70 text-sm">
