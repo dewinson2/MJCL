@@ -171,7 +171,7 @@ export default async function EmpleosPage() {
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-white text-black hover:bg-white/20 px-6 py-6 text-lg"
+                  className="border-white text-black hover:bg-white/20 px-6 py-6 text-lg bg-transparent"
                   asChild
                 >
                   <Link href="/#contacto">Contáctanos</Link>
@@ -531,8 +531,8 @@ export default async function EmpleosPage() {
                 <span>Corporación MJCL</span>
               </Link>
               <p className="text-white/70 text-sm">
-                Ofrecemos servicios múltiples dirigidos a compañías públicas y privadas, con el compromiso de mejorar la
-                calidad de vida de las personas.
+                Incorporamos y promovemos proyectos, mediante la contratación de personal para ejecución de obras y a la
+                vez brindar servicios para satisfacer la demanda de mano de obra en diferentes sectores.
               </p>
               <div className="flex space-x-4">
                 {["facebook", "twitter", "instagram", "linkedin"].map((social, i) => (

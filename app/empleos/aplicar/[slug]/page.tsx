@@ -346,7 +346,7 @@ export default async function JobPage({ params }: JobPageProps) {
                   <Button
                     variant="outline"
                     asChild
-                    className="border-empresa-primary text-empresa-primary hover:bg-empresa-light"
+                    className="border-empresa-primary text-empresa-primary hover:bg-empresa-light bg-transparent"
                   >
                     <Link href="/empleos">Cancelar</Link>
                   </Button>
@@ -369,8 +369,8 @@ export default async function JobPage({ params }: JobPageProps) {
                 <span>Corporación MJCL</span>
               </Link>
               <p className="text-white/70 text-sm">
-                Ofrecemos servicios múltiples dirigidos a compañías públicas y privadas, con el compromiso de mejorar la
-                calidad de vida de las personas.
+                Incorporamos y promovemos proyectos, mediante la contratación de personal para ejecución de obras y a la
+                vez brindar servicios para satisfacer la demanda de mano de obra en diferentes sectores.
               </p>
               <div className="flex space-x-4">
                 {["facebook", "twitter", "instagram", "linkedin"].map((social, i) => (

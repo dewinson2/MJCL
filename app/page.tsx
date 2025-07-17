@@ -100,9 +100,8 @@ export default async function Home() {
                   Servicios Múltiples para Empresas Públicas y Privadas
                 </h1>
                 <p className="mx-auto max-w-[700px] text-white/90 md:text-xl lg:text-2xl">
-                  Incorporamos y promovemos proyectos de cambio, mediante la contratación de personas a fin de mejorar
-                  su calidad de vida y a la vez brindar servicios para satisfacer la demanda de mano de obra en
-                  diferentes sectores.
+                  Incorporamos y promovemos proyectos, mediante la contratación de personal para ejecución de obras y a
+                  la vez brindar servicios para satisfacer la demanda de mano de obra en diferentes sectores.
                 </p>
               </div>
               <div className="flex flex-wrap justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -117,7 +116,7 @@ export default async function Home() {
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-white text-black hover:bg-white/20 px-6 py-6 text-lg"
+                  className="border-white text-black hover:bg-white/20 px-6 py-6 text-lg bg-transparent"
                   asChild
                 >
                   <Link href="#contacto">Contáctanos</Link>
@@ -307,9 +306,8 @@ export default async function Home() {
                     Transformando vidas y empresas
                   </h2>
                   <p className="text-muted-foreground md:text-xl">
-                    Incorporar y promover proyectos de cambio, mediante la contratación de personas a fin de mejorar su
-                    calidad de vida y a la vez brindar servicios para satisfacer la demanda de mano de obra en
-                    diferentes sectores.
+                    Incorporar y promover proyectos, mediante la contratación de personal para ejecución de obras y a la
+                    vez brindar servicios para satisfacer la demanda de mano de obra en diferentes sectores.
                   </p>
                   <div className="pt-4">
                     <Button className="bg-empresa-primary hover:bg-empresa-dark text-white group" asChild>
