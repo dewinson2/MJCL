@@ -11,7 +11,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Alert, AlertDescription } from "@/components/ui/alert"
 
 // Este es el código de acceso - en una aplicación real debería estar en una variable de entorno
-const ACCESS_CODE = "mjcl2024"
+const ACCESS_CODE = "Mjcl1820"
 
 export default function AdminLoginPage() {
   const [code, setCode] = useState("")
