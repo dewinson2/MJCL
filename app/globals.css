@@ -327,3 +327,54 @@
     opacity: 1;
   }
 }
+
+/* Prevenir scroll horizontal no deseado */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Asegurar que todos los contenedores respeten el ancho máximo */
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Corregir elementos decorativos que pueden causar overflow */
+.decorative-dots {
+  max-width: calc(100vw - 2rem);
+}
+
+/* Asegurar que las animaciones no causen overflow */
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px); /* Reducir el desplazamiento */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(10px); /* Reducir el desplazamiento */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Corregir elementos con márgenes negativos excesivos */
+.relative {
+  overflow-x: hidden;
+}
+
+/* Asegurar que los elementos posicionados absolutamente no causen overflow */
+.absolute {
+  max-width: calc(100vw - 2rem);
+}

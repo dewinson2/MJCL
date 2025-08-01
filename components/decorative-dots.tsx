@@ -1,7 +1,10 @@
 export function DecorativeDots({ className = "" }: { className?: string }) {
   return (
-    <div className={`absolute pointer-events-none opacity-20 ${className}`}>
-      <div className="grid grid-cols-6 gap-2">
+    <div
+      className={`absolute pointer-events-none opacity-20 decorative-dots ${className}`}
+      style={{ maxWidth: "calc(100vw - 2rem)" }}
+    >
+      <div className="grid grid-cols-6 gap-2 max-w-[200px]">
         {Array.from({ length: 36 }).map((_, i) => (
           <div
             key={i}

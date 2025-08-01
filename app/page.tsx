@@ -151,14 +151,14 @@ export default async function Home() {
                 />
               </div>
             </ScrollReveal>
-            <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
+            <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12 px-4 sm:px-0">
               <ScrollReveal delay={100}>
                 <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group">
                   <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
                   <Construction className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
-                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Construcción</h3>
+                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Contratación de Obreros</h3>
                   <p className="text-center text-muted-foreground relative z-10">
-                    Servicios para compañías dedicadas a la construcción de viviendas y asfaltos.
+                    Construcción, sector agrícola, multicentros, y otros sectores según las necesidades del cliente.
                   </p>
                   <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
                     <Link href="#" className="flex items-center">
@@ -174,7 +174,8 @@ export default async function Home() {
                   <Headphones className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
                   <h3 className="text-xl font-bold text-empresa-primary relative z-10">Telecomunicaciones</h3>
                   <p className="text-center text-muted-foreground relative z-10">
-                    Servicios para compañías de telecomunicaciones.
+                    Inhibidores de frecuencia para sistemas penitenciarios, entre otras entidades a petición de la parte
+                    interesada.
                   </p>
                   <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
                     <Link href="#" className="flex items-center">
@@ -187,10 +188,11 @@ export default async function Home() {
               <ScrollReveal delay={300}>
                 <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group">
                   <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
-                  <Camera className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
+                  <Shield className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
                   <h3 className="text-xl font-bold text-empresa-primary relative z-10">Sistemas de Seguridad</h3>
                   <p className="text-center text-muted-foreground relative z-10">
-                    Monitoreo de cámaras de vigilancia e inhibidores de frecuencias para sistemas penitenciarios.
+                    Asesoría en materia de seguridad y defensa nacional, servicios de espía, detective privado,
+                    investigador privado.
                   </p>
                   <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
                     <Link href="#" className="flex items-center">
@@ -203,10 +205,10 @@ export default async function Home() {
               <ScrollReveal delay={400}>
                 <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group">
                   <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
-                  <Shield className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
-                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Seguridad e Inteligencia</h3>
+                  <Camera className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
+                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Monitoreo de Cámaras</h3>
                   <p className="text-center text-muted-foreground relative z-10">
-                    Servicios de vigilancia, inteligencia y contra inteligencia para el sector público y privado.
+                    Empresas, villas privadas, viviendas, cámaras corporales de cuerpos castrenses, entre otros.
                   </p>
                   <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
                     <Link href="#" className="flex items-center">
@@ -219,10 +221,73 @@ export default async function Home() {
               <ScrollReveal delay={500}>
                 <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group">
                   <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
+                  <svg
+                    className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Instalación y Monitoreo GPS</h3>
+                  <p className="text-center text-muted-foreground relative z-10">
+                    Dealer automovilístico, empresas transportistas, instituciones gubernamentales con vehículos móviles
+                    en circulación en todo el territorio nacional.
+                  </p>
+                  <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
+                    <Link href="#" className="flex items-center">
+                      Ver más
+                      <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
+                  </Button>
+                </div>
+              </ScrollReveal>
+              <ScrollReveal delay={600}>
+                <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group">
+                  <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
                   <Building2 className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10" />
                   <h3 className="text-xl font-bold text-empresa-primary relative z-10">Servicios Corporativos</h3>
                   <p className="text-center text-muted-foreground relative z-10">
-                    Soluciones integrales para empresas públicas y privadas.
+                    Servicios de consultoría, servicios de apoyo empresarial y soluciones integrales para empresas.
+                  </p>
+                  <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
+                    <Link href="#" className="flex items-center">
+                      Ver más
+                      <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
+                  </Button>
+                </div>
+              </ScrollReveal>
+              <ScrollReveal delay={700}>
+                <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 card-3d bg-white relative overflow-hidden group lg:col-span-1 lg:col-start-2">
+                  <div className="absolute inset-0 bg-empresa-primary/5 transform scale-y-0 origin-bottom transition-transform duration-300 group-hover:scale-y-100"></div>
+                  <svg
+                    className="h-12 w-12 text-empresa-secondary animate-bounce-light relative z-10"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"
+                    />
+                  </svg>
+                  <h3 className="text-xl font-bold text-empresa-primary relative z-10">Mantenimiento</h3>
+                  <p className="text-center text-muted-foreground relative z-10">
+                    Vías públicas, señalizaciones de carreteras, elevados y puentes, cañadas, alcantarillas.
                   </p>
                   <Button variant="ghost" className="text-empresa-secondary group relative z-10" asChild>
                     <Link href="#" className="flex items-center">
@@ -241,8 +306,8 @@ export default async function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <ScrollReveal>
                 <div className="relative">
-                  <div className="absolute -top-6 -left-6 w-20 h-20 bg-empresa-accent/20 rounded-full"></div>
-                  <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-empresa-secondary/10 rounded-full"></div>
+                  <div className="absolute -top-4 -left-4 w-16 h-16 bg-empresa-accent/20 rounded-full hidden sm:block"></div>
+                  <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-empresa-secondary/10 rounded-full hidden sm:block"></div>
                   <div className="relative bg-white p-6 rounded-lg depth-shadow">
                     <h3 className="text-2xl font-bold text-empresa-primary mb-4">¿Por qué elegirnos?</h3>
                     <ul className="space-y-3">

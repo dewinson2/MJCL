@@ -54,7 +54,7 @@ export function MobileMenu({ items }: MobileMenuProps) {
 
       <div className={`mobile-menu-overlay ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(false)}></div>
 
-      <div className={`mobile-menu ${isOpen ? "open" : ""}`}>
+      <div className={`mobile-menu ${isOpen ? "open" : ""}`} style={{ maxWidth: "80vw" }}>
         <div className="flex justify-end mb-8">
           <Button
             variant="ghost"
